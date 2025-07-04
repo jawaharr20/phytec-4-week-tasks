@@ -1,5 +1,6 @@
 
 **Circular Buffer Implementation in C**
+
 This project demonstrates a simple implementation of a circular buffer (ring buffer) in C. A circular buffer is a fixed-size data structure that works as a queue, wrapping around to the beginning when it reaches the end.
 Features
 
@@ -12,12 +13,9 @@ File
 
     circular_buffer_implementation.c
 
-How to Compile and Run
+How to Compile and Run: 
 
-    Compile the program:
-    Code
-
-gcc circular_buffer_implementation.c -o circular_buffer_implementation
+    gcc circular_buffer_implementation.c -o circular_buffer_implementation
 
 Run the program:
 Code
@@ -27,9 +25,9 @@ Code
 Sample Output
 Code
 
-Circular Buffer contents: 10 20 30 
-Dequeued: 10
-Circular Buffer contents: 20 30 
+     Circular Buffer contents: 10 20 30 
+     Dequeued: 10
+     Circular Buffer contents: 20 30 
 
 Explanation
 
@@ -46,4 +44,4 @@ Functions Overview
     dequeue(cirbuf *cb, int *data): Removes data from the buffer. Prints a message if empty.
     display(cirbuf *cb): Displays the contents of the buffer from tail to head.
 
-You can copy this README file to your project directory as README.md. Let me know if you want a more detailed explanation of any function or the circular buffer concept!
+![image](https://github.com/user-attachments/assets/6a114e8a-966a-4c01-ab33-8926cb9a5c3c)
