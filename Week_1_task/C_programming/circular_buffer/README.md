@@ -5,7 +5,7 @@ This directory contains a simple implementation of a circular buffer (ring buffe
 ## TO Run
          gcc circular_buffer_implementation.c -o circular
          
-    Then
+Then
 
         ./circular
         
