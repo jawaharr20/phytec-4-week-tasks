@@ -21,18 +21,18 @@ Main Features
 
 How to Compile and Run
 
-    Navigate to the project directory:
-    sh
+Navigate to the project directory:
+  
 
 cd Week_1_task/C_programming/queue_
 
 Compile the code:
-sh
+
 
             gcc queue.c -o queue
 
 Run the executable:
-sh
+
 
             ./queue
 
@@ -48,12 +48,12 @@ Logic and Explanation
 Example Output
 Code
 
-Inserted: 10
-Inserted: 20
-Inserted: 30
-Queue: 10 20 30 
-Deleted: 10
-Queue: 20 30 
-Inserted: 40
-Queue: 20 30 40 
+   Inserted: 10
+   Inserted: 20
+   Inserted: 30
+   Queue: 10 20 30 
+   Deleted: 10
+   Queue: 20 30 
+   Inserted: 40
+   Queue: 20 30 40 
 
