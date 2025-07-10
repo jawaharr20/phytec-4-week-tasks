@@ -2,9 +2,6 @@
 
  This repository contains the tasks and projects completed as part of the Phytec 4 Weeks program. The completion of each task will be posted here.
  
-[Uploading MCU Communication & Porting Project Schedule.pdf…]()
-
-
 
 #  Contents
 
@@ -24,6 +21,7 @@
 
     Superloop
     Superloop architecture examples.
+    
 
     logical c programs
 
@@ -31,3 +29,8 @@
 
 
   More tasks and project completions will be added as the program progresses...
+
+[MCU Communication & Porting Project Schedule.pdf](https://github.com/user-attachments/files/21167666/MCU.Communication.Porting.Project.Schedule.pdf)
+
+
+
