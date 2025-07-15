@@ -25,7 +25,9 @@
 
     logical c programs
 
-    Bgm220p zephyr porting  
+   # Bgm220p zephyr porting  
+
+    basic zephyr porting on the Bgm220p application uploaded
 
 
   More tasks and project completions will be added as the program progresses...
