@@ -3,7 +3,7 @@
  This repository contains the tasks and projects completed as part of the Phytec 4 Weeks program. The completion of each task will be posted here.
  
 
-#  Contents
+#  Contents  WEEK 1
 
  The repository includes implementations and projects on topics such as:
 
@@ -23,6 +23,7 @@
     Superloop architecture examples.
     
 
+# WEEk2
     logical c programs
 
    # Bgm220p zephyr porting  
