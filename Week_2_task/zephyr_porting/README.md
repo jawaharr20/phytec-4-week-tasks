@@ -1,20 +1,20 @@
 # Zephyr Porting on BGM220P
 
 # update
-         The SLTB010A (BGM220P) uses Silicon Labs’ proprietary EFR32BG22 BLE controller, and in mainline Zephyr, there’s no built-in controller firmware           or integration for it.
+         The SLTB010A (BGM220P) uses Silicon Labs’ proprietary EFR32BG22 BLE controller, and in mainline Zephyr, 
+         there’s no built-in controller firmware or integration for it.
         So:
          we need binary blob for the bgm220p board 
          
         Yes, you can run Zephyr on that board, blink LEDs, use GPIO, timers, etc.
 
-        No, you cannot just build a Zephyr BLE sample and expect advertising/scanning to work — because Zephyr doesn’t have the lower-level controller             firmware needed for this chip.
+        No, you cannot just build a Zephyr BLE sample and expect advertising/scanning to work 
+        — because Zephyr doesn’t have the lower-level controller firmware needed for this chip.
 
         BLE on BGM220P only works if you use Simplicity Studio + Gecko SDK (Silabs stack), not pure Zephyr.
 
-        If you try to run Zephyr’s samples/bluetooth/* on SLTB010A, the build will succeed but BLE will silently fail at runtime because the controller            driver is missing.
-
-
-
+        If you try to run Zephyr’s samples/bluetooth/* on SLTB010A, the build will succeed but BLE will silently fail 
+        at runtime because the controllerdriver is missing.
 
 
 This project documents my journey of porting the Zephyr RTOS to the **BGM220P** board from Silicon Labs. The base reference was taken from the **SLTB010A** (official Silabs dev board) Zephyr support. The goal was to bring up basic Zephyr functionality on BGM220P and later extend to BLE stack integration.
