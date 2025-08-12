@@ -3,6 +3,8 @@
 # update
          The SLTB010A (BGM220P) uses Silicon Labs’ proprietary EFR32BG22 BLE controller, and in mainline Zephyr, there’s no built-in controller firmware           or integration for it.
         So:
+         we need binary blob for the bgm220p board 
+         
         Yes, you can run Zephyr on that board, blink LEDs, use GPIO, timers, etc.
 
         No, you cannot just build a Zephyr BLE sample and expect advertising/scanning to work — because Zephyr doesn’t have the lower-level controller             firmware needed for this chip.
