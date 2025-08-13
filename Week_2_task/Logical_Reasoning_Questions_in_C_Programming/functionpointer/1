@@ -1,0 +1,18 @@
+#include<stdio.h>
+int multiply(int a,int b){
+	return a*b;
+}
+int add(int a,int b,(*gg)(int,int)){
+gg=multiply;
+gg();
+
+}
+
+int main(){
+
+	int (* fp)(int ,int ,multiply);
+	fp =add;
+	printf("%d",fp(5,10,multiply));
+	return 0;
+
+}
