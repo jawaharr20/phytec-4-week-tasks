@@ -1,7 +1,7 @@
 # Zephyr Porting on BGM220P
 
 # update
-         The SLTB010A (BGM220P) uses Silicon Labs’ proprietary EFR32BG22 BLE controller, and in mainline Zephyr, 
+         The BGM220P(SLTB010A) uses Silicon Labs’ proprietary EFR32BG22 BLE controller, and in mainline Zephyr, 
          there’s no built-in controller firmware or integration for it.
         So:
          we need binary blob for the bgm220p board 
